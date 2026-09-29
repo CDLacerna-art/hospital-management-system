@@ -51,10 +51,15 @@ RUN mkdir -p \
     storage/logs \
     bootstrap/cache
 
-# Permissions
 RUN chown -R www-data:www-data \
     storage \
-    bootstrap/cache
+    bootstrap/cache \
+    database
+
+RUN chmod -R 775 \
+    storage \
+    bootstrap/cache \
+    database
 
 # Nginx configuration
 COPY docker/nginx.conf /etc/nginx/http.d/default.conf
