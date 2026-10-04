@@ -8,7 +8,7 @@ class HospitalController extends Controller
 {
     public function home()
     {
-        return view('main', [
+        return view('home', [
             'page' => 'home',
             'currentTitle' => 'Home'
         ]);
@@ -16,7 +16,7 @@ class HospitalController extends Controller
 
     public function department()
     {
-        return view('main', [
+        return view('department', [
             'page' => 'department',
             'currentTitle' => 'Home - Department'
         ]);
@@ -24,7 +24,7 @@ class HospitalController extends Controller
 
     public function doctor()
     {
-        return view('main', [
+        return view('doctor', [
             'page' => 'doctor',
             'currentTitle' => 'Home - Doctor'
         ]);
@@ -32,7 +32,7 @@ class HospitalController extends Controller
 
     public function nurse()
     {
-        return view('main', [
+        return view('nurse', [
             'page' => 'nurse',
             'currentTitle' => 'Home - Nurse'
         ]);
@@ -40,7 +40,7 @@ class HospitalController extends Controller
 
     public function monitorHospital()
     {
-        return view('main', [
+        return view('monitor_hospital', [
             'page' => 'monitor_hospital',
             'currentTitle' => 'Home - Monitor Hospital'
         ]);
@@ -48,7 +48,7 @@ class HospitalController extends Controller
 
     public function login()
     {
-        return view('main', [
+        return view('login', [
             'page' => 'login',
             'currentTitle' => 'Login'
         ]);
@@ -56,7 +56,7 @@ class HospitalController extends Controller
 
     public function register()
     {
-        return view('main', [
+        return view('register', [
             'page' => 'register',
             'currentTitle' => 'Register'
         ]);
@@ -64,7 +64,7 @@ class HospitalController extends Controller
 
     public function information()
     {
-        return view('main', [
+        return view('information', [
             'page' => 'information',
             'currentTitle' => 'Personal Information'
         ]);
