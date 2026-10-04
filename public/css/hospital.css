@@ -6,7 +6,18 @@
 }
 
 body {
-    background: #e0e0e0;
+    background:
+        linear-gradient(
+            rgba(255, 255, 255, 0.45),
+            rgba(255, 255, 255, 0.45)
+        ),
+        url('https://saksingayon.com/wp-content/uploads/2021/09/upload-2021-09-12T183943.425.jpg');
+
+    background-color: #e0e0e0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     color: #333;
     min-height: 100vh;
     display: flex;
@@ -57,14 +68,14 @@ header {
 ========================= */
 
 .top-navbar {
-    background: #e6e6e6;
+    background: transparent;
     padding: 8px 15px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    border-bottom: 1px solid #ccc;
+    border-bottom: none;
 }
 
 .nav-left {
@@ -273,16 +284,7 @@ header {
     flex: 1;
     padding: 20px;
 
-    background:
-        linear-gradient(
-            rgba(255, 255, 255, 0.45),
-            rgba(255, 255, 255, 0.45)
-        ),
-        url('https://saksingayon.com/wp-content/uploads/2021/09/upload-2021-09-12T183943.425.jpg');
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: none;
 
     display: flex;
     justify-content: center;
