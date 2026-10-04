@@ -11,7 +11,7 @@ body {
             rgba(255, 255, 255, 0.45),
             rgba(255, 255, 255, 0.45)
         ),
-        url('https://saksingayon.com/wp-content/uploads/2021/09/upload-2021-09-12T183943.425.jpg');
+        url('https://images.metronewscentral.net/SpWdA3eIi4967.jpg');
 
     background-color: #e0e0e0;
     background-size: cover;
@@ -63,18 +63,13 @@ header {
 }
 
 
-/* =========================
-   TOP NAVIGATION
-========================= */
-
+/* ========NAVIGATION======== */
 .top-navbar {
     background: transparent;
     padding: 8px 15px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     border-bottom: none;
 }
 
@@ -84,22 +79,15 @@ header {
     gap: 10px;
 }
 
-
-/* Hamburger */
-
+/* HamMenu*/
 .hamburger-btn {
     background: #000;
     color: #fff;
-
     border: none;
-
     width: 32px;
     height: 32px;
-
     border-radius: 50%;
-
     cursor: pointer;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,91 +95,60 @@ header {
 
 
 /* Search */
-
 .search-container {
     position: relative;
-
     display: flex;
     align-items: center;
 }
-
 .search-container i {
     position: absolute;
-
     left: 10px;
-
     color: #666;
     font-size: 14px;
 }
-
 .search-container input {
     padding: 6px 12px 6px 30px;
-
     border-radius: 15px;
-
     border: 1px solid #ccc;
-
     width: 350px;
-
     outline: none;
 }
 
 
-/* =========================
-   USER DROPDOWN
-========================= */
+/* == USER DROPDOWN === */
 
 .user-dropdown {
     position: relative;
     display: inline-block;
 }
-
 .profile-btn {
     background: none;
     border: none;
-
     font-size: 24px;
-
     cursor: pointer;
-
     color: #333;
 }
-
 .dropdown-menu {
     display: none;
-
     position: absolute;
-
     right: 0;
     top: 35px;
-
     background-color: #dcdcdc;
-
     min-width: 130px;
-
     box-shadow:
         0px 4px 8px rgba(0,0,0,0.2);
-
     border-radius: 4px;
-
     overflow: hidden;
-
     z-index: 100;
 }
 
 .dropdown-menu a {
     color: #000;
-
     padding: 10px 15px;
-
     text-decoration: none;
-
     display: block;
-
     font-weight: bold;
-
     font-size: 14px;
-
     border-bottom: 1px solid #ccc;
 }
 
@@ -208,36 +165,24 @@ header {
 }
 
 
-/* =========================
-   MAIN CONTAINER
-========================= */
+/* ======MAIN CONTAINER========== */
 
 .main-container {
     display: flex;
-
     flex: 1;
-
     position: relative;
 }
 
 
-/* =========================
-   SIDE MENU
-========================= */
+/* ============= SIDE MENU============= */
 
 .side-menu {
     width: 180px;
-
     background-color: #dcdcdc;
-
     padding: 10px 5px;
-
     display: flex;
-
     flex-direction: column;
-
     gap: 8px;
-
     transition: margin-left 0.3s ease;
 }
 
@@ -247,25 +192,15 @@ header {
 
 .nav-btn {
     display: flex;
-
     align-items: center;
-
     gap: 10px;
-
     background-color: #8e8e8e;
-
     color: #000;
-
     text-decoration: none;
-
     padding: 8px 12px;
-
     border-radius: 10px;
-
     font-weight: bold;
-
     font-size: 13px;
-
     border: 1px solid #777;
 }
 
@@ -276,16 +211,12 @@ header {
 }
 
 
-/* =========================
-   CONTENT
-========================= */
+/* ==============CONTENT============== */
 
 .content-area {
     flex: 1;
     padding: 20px;
-
     background: none;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -293,34 +224,27 @@ header {
 }
 
 
-/* =========================
-   CARD
-========================= */
+/* ====CARD======= */
 
 .card {
     background: rgba(255, 255, 255, 0.9);
-
     padding: 30px;
-
     border-radius: 8px;
-
     max-width: 650px;
-
     width: 100%;
-
     text-align: center;
-
     box-shadow:
         0 4px 15px rgba(0,0,0,0.3);
 }
-
+.hierarchy-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
 .quote-text {
     font-style: italic;
-
     font-size: 18px;
-
     line-height: 1.5;
-
     color: #222;
 }
 
@@ -331,51 +255,36 @@ header {
 
 .form-group {
     margin-bottom: 15px;
-
     text-align: left;
 }
 
 .form-group label {
     display: block;
-
     font-weight: bold;
-
     margin-bottom: 5px;
 }
 
 .form-group input {
     width: 100%;
-
     padding: 10px;
-
     border-radius: 15px;
-
     border: 1px solid #999;
-
     background: #c0c0c0;
-
     outline: none;
 }
 
 .btn-submit {
     background-color: #8e8e8e;
-
     border: 1px solid #666;
-
     padding: 8px 25px;
-
     border-radius: 10px;
-
     font-weight: bold;
-
     cursor: pointer;
-
     margin: 5px;
 }
 
 .btn-submit:hover {
     background-color: #666;
-
     color: #fff;
 }
 
@@ -390,7 +299,6 @@ header {
 
 .profile-icon {
     font-size: 40px;
-
     margin-bottom: 10px;
 }
 
@@ -400,6 +308,5 @@ header {
 
 .register-button {
     text-decoration: none;
-
     display: inline-block;
 }

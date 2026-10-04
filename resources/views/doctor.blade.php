@@ -8,13 +8,9 @@
 
         <br>
 
-        <p>
-            <strong>Head Doctor</strong>
-        </p>
-
-        <p>├── Attending Physician</p>
-        <p>├── Resident</p>
-        <p>└── Intern</p>
+        <img src="{{ asset('images/Doctor.png') }}"
+             class="hierarchy-img">       
+        <br><br>
 
     </div>
 

@@ -6,17 +6,16 @@
 
     <title>Navotas Hospital System</title>
 
-    <!-- FontAwesome -->
+
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- Hospital CSS -->
     <link rel="stylesheet" href="{{ asset('css/hospital.css') }}">
 </head>
 
 <body>
 
-    <!-- Header -->
+
     <header>
         <div class="header-title">
             <h1>Navotas Hospital System</h1>
@@ -36,17 +35,15 @@
     </header>
 
 
-    <!-- Top Navigation -->
     <div class="top-navbar">
 
         <div class="nav-left">
 
-            <!-- Hamburger -->
+
             <button class="hamburger-btn" onclick="toggleSideMenu()">
                 <i class="fa-solid fa-bars-staggered"></i>
             </button>
 
-            <!-- Search -->
             <div class="search-container">
 
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -61,7 +58,6 @@
         </div>
 
 
-        <!-- User Dropdown -->
         <div class="user-dropdown" id="userDropdown">
 
             <button class="profile-btn" onclick="toggleDropdown()">
@@ -85,11 +81,10 @@
     </div>
 
 
-    <!-- Main Layout -->
+
     <div class="main-container">
 
 
-        <!-- Side Menu -->
         <aside class="side-menu" id="sideMenu">
 
             <a href="{{ route('home') }}"
@@ -139,7 +134,6 @@
         </aside>
 
 
-        <!-- Content (each page fills this) -->
         <main class="content-area">
 
             @yield('content')
@@ -149,7 +143,7 @@
     </div>
 
 
-    <!-- JavaScript -->
+
     <script>
 
         function toggleSideMenu() {

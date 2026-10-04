@@ -8,9 +8,8 @@
 
         <br>
 
-        <p>
-            Academic & Clinical Rank H-Index metrics
-        </p>
+        <img src="{{ asset('images/NurseFaculty.jpg') }}"
+             class="hierarchy-img">
 
     </div>
 

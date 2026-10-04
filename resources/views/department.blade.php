@@ -4,19 +4,12 @@
 
     <div class="card">
 
-        <h2>Healthcare System Department Hierarchy</h2>
+        <h2>Healthcare System Department</h2>
 
         <br>
 
-        <p>
-            <strong>Hospital A:</strong>
-            COVID-19 center
-        </p>
-
-        <p>
-            <strong>Hospital B, C, D:</strong>
-            Supporting hospitals
-        </p>
+        <img class="hierarchy-img" src="https://www.frontiersin.org/files/Articles/1167411/xml-images/fpubh-11-1167411-g001.webp">
+        <br><br>
 
     </div>
 

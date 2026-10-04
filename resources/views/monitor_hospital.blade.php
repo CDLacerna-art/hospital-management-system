@@ -5,16 +5,10 @@
     <div class="card">
 
         <h2>Monitor Hospital Dashboard</h2>
-
         <br>
 
-        <p>
-            Active Stats:
-            45 New Patients |
-            23 Doctors |
-            14 Operations
-        </p>
-
+        <img src="{{ asset('images/Dashboard2.jpg') }}"
+             class="hierarchy-img">
     </div>
 
 @endsection
